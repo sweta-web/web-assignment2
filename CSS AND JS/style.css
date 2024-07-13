@@ -8,7 +8,7 @@
   }
   
   .active{
-    background-color:#3f4795;
+    background-color:#1ad292;
     margin: 1px;
     border: 1px solid black;
   }
@@ -17,7 +17,7 @@
     height:74px;
     position: fixed;
     width: 87%;
-    background-color: lightsalmon;
+    background-color: rgb(91, 162, 112);
     border-bottom: 1px solid black;
     border-left: 1px solid black;
     
@@ -34,7 +34,7 @@
     text-align: left;
     justify-content: left;
     align-items: left;
-    background-color: lightsalmon;
+    background-color: rgb(91, 162, 112);
     color: black;
     position: fixed;
     top: 0;
@@ -79,14 +79,16 @@
     display: flex;
     border-bottom: 1px solid black;
     align-items: center;
-    background-color: lightsalmon;
+    color:white;
+    background-color: rgb(92, 162, 112);
   }
   
   .logo {
-    width: 58px;
+    width: 40px;
     height: auto;
     margin-right: 0px;
     border-radius: 5%;
+    mix-blend-mode: multiply;
   }
   
   .main-content {
@@ -106,14 +108,14 @@
   .search input {
     padding: 10px;
     width: 30%;
-    border: 1px solid #ccc;
+    border: 1px solid #dcb9b9;
   }
   
   body {
     font-family: 'Times New Roman', Times, serif, sans-serif,;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
+    background-color: #e7f5b7;
     display: flex;
   }
   
@@ -127,8 +129,8 @@
   .stat-box {
     height: 150px;
     width: 400px;
-    background-color: #35ed35c9;
-    color: white;
+    background-color: #48b848c9;
+    color: rgb(7, 0, 0);
     padding: 20px;
     border-radius: 30px;
     text-align: center;
@@ -183,8 +185,8 @@
     margin: 0px;
     padding-left: 10px;
     border-radius: 10px;
-    color: white;
-    background-color: #87db34;
+    color: rgb(23, 5, 5);
+    background-color: #77ac41;
   }
   
   form{
